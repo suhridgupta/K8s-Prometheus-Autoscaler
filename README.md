@@ -44,7 +44,7 @@ Now the custom metric should be available in discovery
 kubectl get --raw /apis/custom.metrics.k8s.io/v1beta2 | jq | grep "pods/http_request"
 ```
 
-### Verify Autoscaling
+## Verify Autoscaling
 Run the following command to generate requests to the sample application:
 ```
 bash load_generator.sh
