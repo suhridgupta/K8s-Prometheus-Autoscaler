@@ -1,5 +1,6 @@
 # K8s-Prometheus-Autoscaler
 This tutorial demonstrates how to install Prometheus and Prometheus-Adapter on a bare-metal Kubernetes cluster, and deploy a simple application which autoscales using a custom metric.
+This tutorial refers to and is a modification of the official [Prometheus Adapter walkthrough](https://github.com/kubernetes-sigs/prometheus-adapter/blob/master/docs/walkthrough.md).
 ## Pre-requisites
 - Kubernetes cluster with 1+ worker nodes
 - Metrics server deployed on the cluster
