@@ -1,0 +1,6 @@
+alertmanager:
+  enabled: false
+prometheus:
+  service:
+    type: NodePort
+    nodePort: 30090
