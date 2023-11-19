@@ -34,7 +34,7 @@ kubectl apply -f 2-Prometheus-Adapter/sample-app.monitor.yaml
 The http_requests_total metric should now be available on the Prometheus UI. However the Autoscaler cannot access the metric yet, which is where the Adapter is used.
 To deploy the adapter, we run the following command:
 ```
-helm install custom-metrics prometheus-community/prometheus-adapater --namespace monitoring --values prometheus-adapter-values.yaml
+helm install custom-metrics prometheus-community/prometheus-adapter --namespace monitoring --values prometheus-adapter-values.yaml
 ```
 Now the custom metric should be available in discovery
 ```
